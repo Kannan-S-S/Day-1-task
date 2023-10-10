@@ -1,0 +1,24 @@
+Objects and its Internal Representation in JavaScript :
+
+ 1.Objects are essential for organizing and manipulating data in JavaScript,
+  and they play a central role in the language's flexibility and power.
+
+ 2.In JavaScript, objects are collections of key-value pairs, where keys are strings,
+  and values can be of various data types, including other objects. 
+
+ 3. Objects allow you to group related data and behavior together,
+  making it easier to manage and work with complex structures.
+
+ 4.Properties: Objects consist of properties, which are key-value pairs.
+  Each property has a name and a corresponding value.
+  Properties can be added, updated, or removed dynamically.
+
+ 5.Prototype Chain: JavaScript objects also have a prototype chain.
+  This chain allows objects to inherit properties and methods from their prototypes.
+  
+ 6.Objects are a cornerstone of the language, enabling you to model and manipulate complex data structures.
+ 
+
+
+
+

@@ -1,0 +1,20 @@
+
+HTTP/1.1 :
+    
+ 1.In HTTP/1.1, requests and responses are processed sequentially. 
+ 2.This means that each asset is requested one at a time, leading to a phenomenon known as "head-of-line blocking."
+ 3.If one resource takes a long time to load, it delays the entire page rendering process.
+ 4.To overcome the sequential processing issue, browsers opened multiple connections to a server to fetch resources in parallel.
+ 5.In each request, the client sends a significant amount of redundant header data, including cookies and user-agent information.
+
+HTTP/2 :
+
+ 1.HTTP/2 allows multiple requests and responses to be multiplexed over a single connection. 
+ 2.One of the most significant enhancements in HTTP/2 is multiplexing.
+ 3.This eliminates the head-of-line blocking issue and significantly improves page load times.
+ 4.HTTP/2 introduces header compression techniques that significantly reduce the size of header data. 
+ 5.HTTP/2 is designed to be backward-compatible with HTTP/1.1, which means that even if a server supports HTTP/2,
+  it can still serve content to clients using HTTP/1.1.
+
+
+ 
